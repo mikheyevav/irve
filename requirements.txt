@@ -6,3 +6,4 @@ plotly
 jupyterlab
 jupyter-dash
 kaleido
+pydeck
