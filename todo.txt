@@ -1,5 +1,5 @@
 * statique vs dynamique
-* power
-* by department
-* covid
-* spikes
+
+* texte 4,5
+
+* 5 - buble; or sunburst
