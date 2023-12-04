@@ -5,3 +5,4 @@ dash_html_components
 plotly
 jupyterlab
 jupyter-dash
+kaleido

@@ -1,0 +1,5 @@
+* statique vs dynamique
+* cumulative
+* sunkey of producers vs operators
+* power
+* by department
