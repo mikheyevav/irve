@@ -20,7 +20,7 @@ labels = {
 }
 
 
-df = pd.read_csv("data/consolidation-etalab-schema-irve-statique-v-2.2.0-20231130.csv" 
+df = pd.read_csv("data/consolidation-etalab-schema-irve-statique-v-2.2.0-20231207.csv" 
                 ,low_memory=False
                 ,parse_dates=["date_mise_en_service"]
                 ,dtype={"consolidated_code_postal": str
