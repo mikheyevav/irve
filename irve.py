@@ -42,7 +42,7 @@ df["mis_en_service_cette_annee"] = np.where(df["date_mise_en_service"].dt.year==
 
 
 # Département
-df_dep = pd.read_csv("Data/departements-france.csv"
+df_dep = pd.read_csv("data/departements-france.csv"
                      ,dtype={"code_departement": str})
 df["code_departement"] = df["consolidated_code_postal"].str[:2]
 

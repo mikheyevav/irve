@@ -17,10 +17,6 @@ Plusieurs observations:
 Cette année on obsèrve un fort developpment de Freshmile et de PowerDot. Avec Freshmile au 1er place des enseignes.
 ![Enseignes](img/4_enseigne.svg "Enseignes")
 
-Selon la base aujourd'hui c'est DriveCo, Total et PowerDot qui possèdent le plus de bornes.
-
 ![Amenageurs](img/4_amenageurs.svg "Amenageurs")
-
-Quant aux opérateurs, l'image change,  et Bouygues et Izivia qui opèrent les bornes pour les autres aménageurs rejoignent Freshmile déjà cité.
 
 ![Opérateurs](img/4_operateurs.svg "Opérateurs")
