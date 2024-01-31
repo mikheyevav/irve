@@ -1,5 +1,5 @@
 name: Deploy to GitHub Pages
-run-name: ${{ github.actor }} is publishing
+run-name: pages build and deployment
 on: 
   push:
     branches: ["main"]

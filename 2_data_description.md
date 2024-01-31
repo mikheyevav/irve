@@ -1,3 +1,5 @@
+Cette analyse s'appui sur les [données publiques](https://www.data.gouv.fr/en/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/#/resources) hébergés sur la plateforme ouverte des données publiques françaises.
+
 Qui est le fournisseur de ses données et pourquoi publier les données de bornes de recharge? Grace à la [legislation](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043475441) c'est devenu une obligation légale.
 
 La reglementation impose de respecter un schema de données précise et de referencer le dataset sur le [site gouvernemental](https://www.data.gouv.fr).
