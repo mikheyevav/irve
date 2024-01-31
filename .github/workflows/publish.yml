@@ -1,0 +1,30 @@
+name: Deploy to GitHub Pages
+run-name: ${{ github.actor }} is publishing
+on: 
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - run: quarto render rapport.ipynb --output index.html
+
+  deploy:
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
